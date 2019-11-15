@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+* {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.container {
+	width: 750px;
+	height: 1000px;
+	position: relative;
+    /*border: 1px solid #000;*/
+    overflow: hidden;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Lobster', cursive;
+}
+
+.divi-hide {
+    border-bottom: 0px solid #000;
+    height: 100px;
+    width: 450px;
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    opacity: 0;
+}
+.divi-in {
+    border-bottom: 1px solid #000;
+    height: 100px;
+    width: 450px;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    transition: 2s ease-out;
+    opacity: 1;
+}
+.divi-out {
+    border-bottom: 0px solid #000;
+    height: 100px;
+    width: 450px;
+    position: absolute;
+    top: -500px;
+    left: 150px;
+    transition: 2s ease-in;
+    opacity: 0;
+}
+
+.div1-hide {
+    background-image: url("../img/a.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #000;
+    height: 200px;
+    width: 330px;
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    opacity: 0;
+}
+.div1-in {
+    background-image: url("../img/a.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #000;
+    height: 200px;
+    width: 330px;
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    transition: 2s ease-out;
+    opacity: 1;
+}
+.div1-out {
+    background-image: url("../img/a.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #000;
+    height: 200px;
+    width: 330px;
+    position: absolute;
+    top: -500px;
+    left: 20px;
+    transition: 2s ease-in;
+    opacity: 0;
+}
+
+.div2-hide {
+    background-image: url("../img/b.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #000;
+    height: 200px;
+    width: 310px;
+    position: absolute;
+    top: 500px;
+    left: 70px;
+    opacity: 0;
+}
+.div2-in {
+    background-image: url("../img/b.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #000;
+    height: 200px;
+    width: 310px;
+    position: absolute;
+    top: 410px;
+    left: 70px;
+    transition: 2s ease-out;
+    opacity: 1;
+}
+.div2-out {
+    background-image: url("../img/b.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #000;
+    height: 200px;
+    width: 310px;
+    position: absolute;
+    top: -500px;
+    left: 70px;
+    transition: 2s ease-in;
+    opacity: 0;
+}
+
+.div3-hide {
+    background-image: url("../img/c.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #000;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 500px;
+    left: 370px;
+    opacity: 0;
+}
+.div3-in {
+    background-image: url("../img/c.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #000;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 370px;
+    transition: 2s ease-out;
+    opacity: 1;
+}
+.div3-out {
+    background-image: url("../img/c.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #000;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: -500px;
+    left: 370px;
+    transition: 2s ease-in;
+    opacity: 0;
+}
+
+.div4-hide {
+    background-image: url("../img/d.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #000;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    opacity: 0;
+}
+.div4-in {
+    background-image: url("../img/d.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #000;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 340px;
+    left: 400px;
+    transition: 2s ease-out;
+    opacity: 1;
+}
+.div4-out {
+    background-image: url("../img/d.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #000;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: -500px;
+    left: 400px;
+    transition: 2s ease-in;
+    opacity: 0;
+}
